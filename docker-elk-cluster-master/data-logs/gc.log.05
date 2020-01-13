@@ -1,0 +1,39 @@
+[2020-01-13T13:37:50.690+0000][1][gc] Using Concurrent Mark Sweep
+[2020-01-13T13:37:50.690+0000][1][gc,heap,coops] Heap address: 0x00000000f0000000, size: 256 MB, Compressed Oops mode: 32-bit
+[2020-01-13T13:37:50.798+0000][1][safepoint    ] Entering safepoint region: EnableBiasedLocking
+[2020-01-13T13:37:50.798+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:50.798+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0021801 seconds, Stopping threads took: 0.0020697 seconds
+[2020-01-13T13:37:50.804+0000][1][safepoint    ] Application time: 0.0061241 seconds
+[2020-01-13T13:37:50.804+0000][1][safepoint    ] Entering safepoint region: RevokeBias
+[2020-01-13T13:37:50.804+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:50.804+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0001469 seconds, Stopping threads took: 0.0000808 seconds
+[2020-01-13T13:37:50.835+0000][1][safepoint    ] Application time: 0.0307686 seconds
+[2020-01-13T13:37:50.836+0000][1][safepoint    ] Entering safepoint region: Deoptimize
+[2020-01-13T13:37:50.836+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:50.836+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0006886 seconds, Stopping threads took: 0.0006221 seconds
+[2020-01-13T13:37:51.083+0000][1][safepoint    ] Application time: 0.2470610 seconds
+[2020-01-13T13:37:51.084+0000][1][safepoint    ] Entering safepoint region: Deoptimize
+[2020-01-13T13:37:51.084+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:51.084+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0006069 seconds, Stopping threads took: 0.0004839 seconds
+[2020-01-13T13:37:52.084+0000][1][safepoint    ] Application time: 1.0003001 seconds
+[2020-01-13T13:37:52.084+0000][1][safepoint    ] Entering safepoint region: Cleanup
+[2020-01-13T13:37:52.084+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:52.084+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0002383 seconds, Stopping threads took: 0.0001025 seconds
+[2020-01-13T13:37:52.169+0000][1][safepoint    ] Application time: 0.0842253 seconds
+[2020-01-13T13:37:52.169+0000][1][safepoint    ] Entering safepoint region: Deoptimize
+[2020-01-13T13:37:52.169+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:52.169+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0002312 seconds, Stopping threads took: 0.0000213 seconds
+[2020-01-13T13:37:52.384+0000][1][safepoint    ] Application time: 0.2149850 seconds
+[2020-01-13T13:37:52.384+0000][1][safepoint    ] Entering safepoint region: RevokeBias
+[2020-01-13T13:37:52.384+0000][1][safepoint    ] Leaving safepoint region
+[2020-01-13T13:37:52.384+0000][1][safepoint    ] Total time for which application threads were stopped: 0.0002212 seconds, Stopping threads took: 0.0000317 seconds
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ] Heap
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]  par new generation   total 76672K, used 41798K [0x00000000f0000000, 0x00000000f5330000, 0x00000000f5330000)
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]   eden space 68160K,  61% used [0x00000000f0000000, 0x00000000f28d1b38, 0x00000000f4290000)
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]   from space 8512K,   0% used [0x00000000f4290000, 0x00000000f4290000, 0x00000000f4ae0000)
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]   to   space 8512K,   0% used [0x00000000f4ae0000, 0x00000000f4ae0000, 0x00000000f5330000)
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]  concurrent mark-sweep generation total 176960K, used 0K [0x00000000f5330000, 0x0000000100000000, 0x0000000100000000)
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]  Metaspace       used 8987K, capacity 10550K, committed 10752K, reserved 1058816K
+[2020-01-13T13:37:52.520+0000][1][gc,heap,exit ]   class space    used 1192K, capacity 1454K, committed 1536K, reserved 1048576K
+[2020-01-13T13:37:52.520+0000][1][safepoint    ] Application time: 0.1362875 seconds
+[2020-01-13T13:37:52.520+0000][1][safepoint    ] Entering safepoint region: Halt
